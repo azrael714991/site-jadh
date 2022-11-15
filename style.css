@@ -223,18 +223,20 @@
     color: #00FFFF;
   }
   
-  @media screen and (min-widht: 768px){
+  @media screen and (max-widht: 450px){
   
     /* NAV */
   
     nav {
        flex-direction: row;
        justify-content: space-around;
+       align-items: center;
+       justify-content: center;
     }
     
     nav ul {
       flex-direction: row;
-      width: 70%;
+      width: 100%;
   
     }
   
@@ -244,6 +246,7 @@
       height: 600px;
       height: 60vh;
       justify-content: center;
+      align-items: center;
     }
   
     /* SOBRE */
@@ -253,6 +256,7 @@
       height: 30vh;
       justify-content: center;
       min-height: 250px;
+      text-align: center;
     }
   
     #serviços {
@@ -261,6 +265,7 @@
         align-items: flex-start;
         max-width: 1000px;
         margin: 0 auto;
+        text-align: center;
     }
   
      #serviços h2 {
@@ -283,6 +288,7 @@
      #fotos h2 {
        width: 100%;
        text-align: center;
+       margin-left: 20px;
      }
   
      #fotos img {
@@ -301,5 +307,9 @@
      #contato h2, p {
         width: 100%;
         
+     }
+
+     p {
+      margin-left: 10px;
      }
   }
