@@ -109,19 +109,23 @@
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
-     color: #FFFFFF;
+     color: black;
      text-align: center;
      padding: 20px;
   }
   
   header h1 {
-    color: black;
+    color: rgb(19, 13, 13);
   }
   
   header p{
     margin-bottom: 2em;
   }
-  
+  p a{
+      text-decoration: none;
+      color: red;
+  }
+
   #sobre{
     display: flex;
      flex-direction: column;
@@ -213,7 +217,7 @@
   
   footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: purple;
     color: #FFFFFF;
   }
@@ -292,7 +296,7 @@
      }
   
      #fotos img {
-       width: 33.3333333%;  
+       width: 43.3333333%;  
   
      }
      
